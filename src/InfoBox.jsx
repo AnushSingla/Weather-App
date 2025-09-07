@@ -25,7 +25,7 @@ export default function Info({info}){
          {info.city}&nbsp;&nbsp;&nbsp;{info.temp>20?<LocalFireDepartmentIcon></LocalFireDepartmentIcon>:<AcUnitIcon></AcUnitIcon>}
         </Typography>
         <Typography variant="body2" sx={{ color: 'text.secondary' }} component={"span"}>
-        <p>Temperature = {info.temp}&deg;C</p>
+        <p>Temperature in this state is  = {info.temp}&deg;C</p>
         <p>Humidity = {info.humidity}</p>
         <p>Pressure = {info.pressure}</p>
         <p>Weather can be described as {info.weather}</p>
