@@ -1,1 +1,1 @@
-WELCOME TO MY WEATHER APP 
+WELCOME TO MY WEATHER APP . This is a simple webdev app
